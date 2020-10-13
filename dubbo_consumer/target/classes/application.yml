@@ -1,0 +1,5 @@
+dubbo:
+  registry:
+    address: zookeeper://192.168.40.170:2181
+  application:
+    name: gcp-dubbo-first-consumer

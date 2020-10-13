@@ -1,0 +1,8 @@
+dubbo:
+  registry:
+    address: zookeeper://192.168.40.170:2181 # 提供注册中心的访问地址。
+  application:
+    name: gcp-dubbo-first-provider # 配置本dubbo的应用名称，名称组成是：字母，数字，'-'，字母开头
+#  protocol: # 协议，协议自定义配置的时候，所有的默认值失效。
+#    name: dubbo # 协议名
+#    port: 20880 # 端口，默认20880
